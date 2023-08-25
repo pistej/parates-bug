@@ -1,0 +1,12 @@
+{
+    "name": "pistej/parates-bug",
+    "require": {
+        "brianium/paratest": "^7.2",
+        "phpunit/phpunit": "^10.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
